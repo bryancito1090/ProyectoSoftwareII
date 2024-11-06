@@ -11,3 +11,9 @@ document.getElementById('btnElizabeth').addEventListener('click', function() {
         nameDisplay.innerText = 'Elizabeth Silva';
     }
 });
+document.getElementById('MelanyButton').addEventListener('click', function() {
+    const nameDisplay = document.getElementById('name');
+    if (nameDisplay) {
+        nameDisplay.innerText = 'Melany Enriquez ';
+    }
+});
